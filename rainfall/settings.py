@@ -76,12 +76,7 @@ WSGI_APPLICATION = "rainfall.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": os.environ.get("DB_ENGIN"),
-        "NAME": os.environ.get("DB_NAME"),
-    }
-}
+DATABASES = {"default": {}}
 
 
 # Password validation
