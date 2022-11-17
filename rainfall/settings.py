@@ -122,3 +122,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # 서울시 열린데이터 API 인증키
 AUTHENTICATION_KEY = os.environ.get("AUTHENTICATION_KEY")
+
+# 이메일 관련 설정
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
